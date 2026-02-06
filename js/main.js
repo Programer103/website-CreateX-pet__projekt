@@ -156,5 +156,11 @@ $(function () {
 });
 
 
+})
 
+
+$(window).on('resize', function(){
+  if ($(window).width() > 1100) {
+      $('.header__top').css('visibility', 'visible');
+  }
 })

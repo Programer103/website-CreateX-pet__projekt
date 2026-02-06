@@ -205,7 +205,7 @@ body {
 
 .header {
     font-weight: 700;
-    background: url(../images/decor/shapes-bg.svg) 50% 50%/ cover no-repeat, linear-gradient(55.95deg, rgba(255, 63, 58, .2), rgba(247, 94, 5, .2));
+    background: url("../images/decor/shapes-bg.svg") 50% 50%/ cover no-repeat, linear-gradient(55.95deg, rgba(255, 63, 58, .2), rgba(247, 94, 5, .2));
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -1910,6 +1910,12 @@ body {
 /* -----------------------MEDIA---------------------- */
 
 
+@media (min-width: 1100px){
+    .header__top{
+        visibility: visible;
+    }
+}
+
 @media (max-width: 1200px) {
 
     .header__titile {
@@ -2016,7 +2022,7 @@ body {
     right: 0;
     bottom: 0;
 
-    min-width: 320px;          /* вместо min-width */
+    min-width: 320px;          
     padding: 50px 0;
     background-color: #fff;
     z-index: 5;
@@ -2105,6 +2111,7 @@ body {
     
 
 }
+
 
 @media (max-width: 950px) {
 
