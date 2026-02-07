@@ -2619,42 +2619,8 @@ input:-webkit-autofill {
 
     /* ---------------------------- */
 
-
-
-    
-
-    .footer__list--hide .footer__top-list {
-        font-size: 0;
-        height: 0;
-    }
-
-    .footer__list--hide .footer__top-item,
-    .footer__list--hide .footer__top-title{
-        margin: 0;
-    }
-
-    .footer__top-list,
-    .footer__top-item,
-    .footer__top-title{
-        transition: all .3s;
-    }
-
-
-    .footer__list--hide svg{
-        display: none;
-    }
-
      .hide:hover{
         cursor: pointer;
-     }
-
-
-     .footer__copy{
-        font-size: 10px;
-     }
-
-     .footer__go-top{
-        font-size: 14px;
      }
 
 }
