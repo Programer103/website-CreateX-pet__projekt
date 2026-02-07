@@ -1243,6 +1243,10 @@ body {
     margin-right: 30px;
 }
 
+.blog__button--mobile {
+        display: none;
+    }
+
 
 .blog__row {
     display: flex;
